@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    padding: 0 3em;
+    color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.list{
+  height: 100vh;
+    width: 16em;
+    overflow: auto;
+    border: 1px solid black;
+    margin: 1em;
+}
+
+.list-title{
+  font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.5em 0 0.5em;
+    margin-bottom: 0.5em;
+    background: lightgray;
+}
+
+.button{
+  font-size: 0.8em;
+    background: gray;
+    /* width: 5em; */
+    border-radius: 0.2em;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto;
+}
+.flex >*{
+  flex: 0 0 auto;
+}
+
+.list-button{
+  width: 5em;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin-left: 7em;
+}
+
+.card{
+  height: 7em;
+  border: 1px solid lightgrey;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.card-title{
+  text-transform: capitalize;
+    background: lightgray;
+    padding: 0.4em;
+    margin-bottom: 0.5em;
+}
+
+.card-content{
+  width: auto;
+    height: 4em;
+    margin: 0.5em;
+    outline: none;
+}
+
+.droppable {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  right: 0;
+  top: 10;
+  background-color: #9E9E9E;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  background-color: #fff;
+    border: 1px solid #00000073;
+    margin: 1em auto;
+    height: 8em;
+    width: 11em;
+}
+
+.editable-body{
+  height: 5.5em;
+  border: 1px solid gray;
+}
